@@ -66,15 +66,17 @@ Install missing packages on-the-fly = Yes
 
 ## TeXStudio Configuration
 
-Enable the following option in the settings:
+Go to Options → Configure TeXstudio
 
-Advanced Options
+In the settings, enable:
+
+Show Advanced Options
 
 Then navigate to:
 
 Build → Meta Commands → Build & View
 
-and configure:
+and set:
 
 txs:///lualatex |
 txs:///biber |
@@ -82,6 +84,30 @@ txs:///makeglossaries |
 txs:///lualatex |
 txs:///lualatex |
 txs:///view
+
+Then go to:
+
+Build → Meta Commands → Default Compiler
+
+and set:
+
+LuaLaTeX
+
+Then go to:
+
+Build → Meta Commands → Default Viewer
+
+and set:
+
+PDF Viewer
+
+Then go to:
+
+Build → Meta Commands → Default Bibliography Tool
+
+and set:
+
+Biber
 
 -------------------------------------------------------------------------------
 
