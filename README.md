@@ -255,3 +255,7 @@ $
 ```
 
 These characters and tags may cause issues during compilation with LuaLaTeX.
+
+# Template in Slovak 
+
+https://github.com/tomasbaca438/latex_sablona_zaverecnej_prace/blob/main/README.md
