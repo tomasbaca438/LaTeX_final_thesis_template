@@ -1,4 +1,4 @@
-# Thesis Template
+# Thesis and presentation Template
 
 ## Project Information
 
