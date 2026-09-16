@@ -1,4 +1,0 @@
-Make:match("final_thesis_template.css$", function()
-  Make:replace("background-color: Canvas;", "background-color: white !important;")
-  Make:replace("color-scheme: light dark;", "color-scheme: only light !important;")
-end)
